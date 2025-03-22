@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="icon" href="image/logo.png">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="movie.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+  <body>
+  
+     <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="image/1.webp" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="image/2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="image/3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4/ 7</div>
+  <img src="image/4.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5/ 7</div>
+  <img src="image/5.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6/ 7</div>
+  <img src="image/6.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7/ 7</div>
+  <img src="image/5.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+		  
+	   <!--- <div><input type="text" class="search-box" placeholder="search movie..."><span>&#128269;</span></div>-->
+	
+	
+	<main class="grid-box">
+           <!--Movie Part-1-->
+	  <section>
+	    <div class="square"><img src="image/Amaran.jpg" ></div><br>
+		<center>
+		 <a href="https://www.youtube.com/watch?v=hnEmZ2q_pao&list=RDhnEmZ2q_pao&start_radio=1.html" class="btn" type="button">Amaran</a></button>
+		 </center> 
+	  </section>
+	    <!--Movie Part-2-->
+	  <section>
+	     <div class="square">
+		   <img  src="image/Blooy beggary.jpg">
+		 </div><br>
+		 <center>
+		 <a href="https://eas.ibomma.day/d/Bloody-Beggar-2024-77i4-telugu-movie-watch-online.html" class="btn" type="button">Blooy</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-3-->
+	  <section>
+	  <div class="square"><img  src="image/Brother.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Brother-2024-Imv2-telugu-movie-watch-online.html" class="btn" type="button">Brother</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-4-->
+	  <section>
+	  <div class="square"><img  src="image/I hate love.jpg" ></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/special-show-2024-3kTA-telugu-movie-watch-online.html" class="btn" type="button">I hate love</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-5-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/jigra.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Jigra-2024-TeCb-telugu-movie-watch-online.html" class="btn" type="button">jigra</a></button>
+		 </center>
+	 
+	  </section>
+	  <!--Movie Part-6-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Kanolive.jpg" ></div><br>
+	  <center>
+		<a href="https://eas.ibomma.day/d/7G-2024-tJpd-telugu-movie-watch-online.html" class="btn" type="button">Kanolive</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-7-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Karataka damanaka.jpg" ></div><br>
+	 
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Karataka-Damanaka-2024-LJKs-telugu-movie-watch-online.html"  class="btn" type="button">Karataka</a></button>
+		 </center>
+	   </section>
+	  <!--Movie Part-8-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/kishkindha kaandam.jpg" ></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/7G-2024-tJpd-telugu-movie-watch-online.html"  class="btn" type="button">kishkindha</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-10-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Aindham Vedham.jpg"></div><br>
+	  
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Aindham-Vedham-2024-Hdr1-telugu-movie-watch-online.html" class="btn" type="button">Aindham</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-11-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Appudo.jpg" ></div><br>
+	  
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Karataka-Damanaka-2024-LJKs-telugu-movie-watch-online.html"  class="btn" type="button">Appud</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-12-->
+	  <section>
+	  <div class="square">
+	  <img src="image/Bougainvillea.jpg" ></div><br>
+	  
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Bougainvillea-2024-B0U1-telugu-movie-watch-online.html"  class="btn" type="button">Bougainvillea</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-13-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Cheta Singh.jpg"></div><br>
+	  
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Cheta-Singh-2023-PEKg-telugu-movie-watch-online.html"  class="btn" type="button">Cheta</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-14-->
+	  <section>
+	  <div class="square">
+	  <img   src="image/Harikatha.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Harikatha-Sambhavami-Yuge-Yuge-2024-9t9g-telugu-movie-watch-online.html" class="btn" type="button">Harikatha</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-15-->
+	  <section>
+	  <div class="square">
+	  <img src="image/KA.jpg" ></div><br>
+	 
+	  <center>
+		 <a href="https://eas.ibomma.day/d/KA-2024-Ofqa-telugu-movie-watch-online.html"  class="btn" type="button">KA</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-16-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/kanolive.jpg"></div><br>
+	 <center>
+		 <a href="https://eas.ibomma.day/d/Vikkatakavi-2024-9WcG-telugu-movie-watch-online.html"  class="btn" type="button">Kanolive</a></button>
+		 </center>
+	  </section>
+	  <!--Movie Part-17-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/kishkindha kaandam.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Matka-2024-WLDs-telugu-movie-watch-online.html" class="btn" type="button">kishkindha</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-18-->
+	  <section>
+	  <div class="square"><img  src="image/Lal Salaam.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Leela-Vinodam-2024-7qZo-telugu-movie-watch-online.html" class="btn" type="button">Lal</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-19-->
+	  <section>
+	  <div class="square"><img  src="image/Leela vinodam.jpg"></div><br>
+	   <center>
+		 <a href="https://eas.ibomma.day/d/Neru-2023-pZm5-telugu-movie-watch-online.html" class="btn" type="button">leela </a></button>
+		 </center>
+	  </section>
+	  	 
+	  <!--Movie Part-20-->
+	  <section>
+	  <div class="square">
+	  <img  src="image/Lucky bhaskar.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Lucky-Bhaskar-2024-uvX9-telugu-movie-watch-online.html"  class="btn" type="button">lucky</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-21-->
+	  <section>
+	  <div class="square"><img src="image/Mechanic Rocky.jpg"></div><br>
+	   <center>
+		 <a href="https://eas.ibomma.day/d/Mechanic-Rocky-2024-DjwF-telugu-movie-watch-online.html" class="btn" type="button">Mechanic</a></button>
+		 </center>
+	   </section>
+	 
+	  <!--Movie Part-22-->
+	  <section>
+	  <div class="square"><img  src="image/mandira.jpg"></div><br>
+	 <center>
+		 <a href="https://eas.ibomma.day/d/Mandira-2024-SdPs-telugu-movie-watch-online.html" class="btn" type="button">mandira</a></button>
+		 </center>
+	  </section>
+	 
+	  <!--Movie Part-24-->
+	  <section>
+	  <div class="square"><img  src="image/Naradan.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Naradan-2024-htW3-telugu-movie-watch-online.html"class="btn" type="button">Narada</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-25-->
+	  <section>
+	  <div class="square"><img  src="image/park.jpg" ></div></br>
+	   <center>
+		 <a href="https://eas.ibomma.day/d/Pottel-2024-h0Do-telugu-movie-watch-online.html" class="btn" type="button">park</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-26-->
+	  <section>
+	  <div class="square"><img  src="image/Roti Kapada Romance.jpg" ></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Roti-Kapada-Romance-2024-Fkbw-telugu-movie-watch-online.html" class="btn" type="button">Roti</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-27-->
+	  <section>
+	  <div class="square"><img src="image/Sandeham.jpg"></div><br>
+	   <center>
+		 <a href="https://eas.ibomma.day/d/Byri-Part-1-2024-n1RE-telugu-movie-watch-online.html"class="btn" type="button">Sandeham</a></button>
+		 </center>
+	  </section>
+	  
+	  <!--Movie Part-28-->
+	  <section>
+	  <div class="square"><img  src="image/Sankes ladders.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Chutney-Sambar-2024-a252-telugu-movie-watch-online.html" class="btn" type="button">sankes</a></button>
+		 </center>
+	   </section>
+	   
+	  <!--Movie Part-29-->
+	  <section>
+	  <div class="square"><img  src="image/Zebra.jpg"></div><br>
+	  <center>
+		 <a href="https://eas.ibomma.day/d/Zebra-2024-BDsM-telugu-movie-watch-online.html" class="btn" type="button">Zebra</a></button>
+		 </center>
+	  </section>
+	  </main>
+	  </body>

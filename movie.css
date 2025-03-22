@@ -1,0 +1,183 @@
+body
+{
+ background-color:#0f1014;
+}
+.header{
+display: flex;
+justify-content: space-between;
+ }
+.header img{
+  width:100px;
+  height:100px;  
+}
+.header input{
+  width:250px;
+  height:20px; 
+}
+.header input{
+  border:none;
+  outline:none;
+  font-size:18px;  
+  border-radius:10px;
+  padding:10px;
+}
+
+.last-child{
+  margin-top:10px;	
+}
+.article{
+  text-align:center; 	
+  margin-bottom:50px;
+  color:#000;
+}
+.grid-box{
+  display:grid; 
+  grid-template-columns:auto auto auto auto ;
+  grid-row-gap :50px;
+  grid-column-gap :50px;
+  width:80%;
+  margin:90px;
+  margin-bottom:30px;  
+ 
+}
+.grid-box img{
+  width:250px;
+  height:280px;  
+}
+.btn {
+  padding: 15px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {
+	opacity: 0.6;
+     background-color: #000;
+}
+.square {
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(135deg, #000, #000);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+			margin: 40px;
+        }
+
+.square img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 15px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+.square:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg,#000,#000);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+		}
+.{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+
+.myslides fade {
+	display: none;
+	
+}
+	
+.img {
+	vertical-align: middle;
+	
+	}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border: 10px solid black;
+  outline: #4CAF50 solid 1px;
+  margin: auto;  
+  padding: 12px;
+  text-align: center;
+}
+}
+.slideshow-container img{
+  height: 350;
+  width: 550;
+  
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+
+.slideshow-container img {vertical-align: middle;}
+
+
+@@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
